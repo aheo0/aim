@@ -15,17 +15,42 @@
         <div id='header-tabs'>
             <a href='.'>HOME</a>
             <a href='docs.html' class='selected'>DOCUMENTARY</a>
-            <a href='#'>PROJECTS</a>
+            <a href='#'>LOG/CHANGES</a>
             <a href='#'>CONTACT ME</a>
         </div>
     </header>
     
+    <div id="sidebar">
+        <a class="sidebar-header" href="#run-program">Run Program</a>
+        <a class="sidebar-links" href="#download-file">> Download AIM Project here!</a>
+        <a class="sidebar-links" href="#run-file">> python3 .</a>
+    </div>
+    
     <body>
-        <div class="body">
-            <div id="title">Home</div>
-            
+        <div class="body body-sidebar">
+            <div id="title">AIM Project Documentary</div>
+            <div id="content">
+                <!-- Run Program -->
+                <h5 id="run-program">Run Program</h5>
+                
+                <h6 id="download-file">Download AIM Project here!</h6>
+                <p><a href=".#">Download here</a></p>
+                
+                <h6 id="run-file">python3 .</h6>
+                <p>First, go to the directory to where you have downloaded the file. Then enter <span class="code">python3 .</span> If this does not work, then you need to install python3. This can be done with the command: <span class="code">sudo apt-get install python3</span> in the bash terminal.</p>
+                <p>Another option is to run the command <span class="code">ipython</span> (this assumes ipython was set to Python3 if not already), afterwards, typing <span class="code">%run __main__.py</span>.</p>
+            </div>
         </div>
     </body>
+    
+    <footer>
+        <div class="footer-content1">
+            <a href='.'>HOME</a>
+            <a href='docs.html'>DOCUMENTARY</a>
+            <a href='#'>LOG/CHANGES</a>
+            <a href='#'>CONTACT ME</a>
+        </div>
+    </footer>
 </html>
 
 
