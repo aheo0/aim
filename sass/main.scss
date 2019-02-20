@@ -112,6 +112,7 @@ $padding-sidebar: 3em;
     width: 25%;
     z-index: 99;
     position: fixed;
+    overflow: scroll;
     
     background-color: $light_green;
     border-right: $emerald_green;
@@ -145,6 +146,7 @@ $padding-sidebar: 3em;
         
         margin-left: 2em;
         margin-bottom: 0.2em;
+        margin-right: 15px;
         
         font-size: 22px;
         font-family: "Laila", serif;

@@ -168,6 +168,7 @@ body {
   width: 25%;
   z-index: 99;
   position: fixed;
+  overflow: scroll;
   background-color: #8ee4af;
   border-right: #5cdb95;
   padding: 3em;
@@ -189,6 +190,7 @@ body {
     text-decoration: none;
     margin-left: 2em;
     margin-bottom: 0.2em;
+    margin-right: 15px;
     font-size: 22px;
     font-family: "Laila", serif;
     color: black; }
