@@ -16,6 +16,9 @@ $emerald_green: #5cdb95;
 $light_green: #8ee4af;
 $pseudo_white: #edf5e1;
 
+// Anchor via id offset due to header (7em)
+$anchor_offset: 6.5em;
+
 @mixin transform($property) {
     -webkit-transform: $property;
     -moz-transform: $property;
@@ -60,8 +63,17 @@ body {
         padding: 2em;
         padding-top: 5em;
         
+        // Anchor Offset for Heading (below)
+        .anchor-offset {            
+            // Anchor offset
+            margin-top: - $anchor_offset;
+            padding-top: 1.5em + $anchor_offset + 0.5em;
+            visibility: none;
+        }
+        
         // Heading
         h5 {
+            
             font-size: 28px;
             font-family: sans-serif;
             text-align: center;
@@ -74,6 +86,7 @@ body {
         
         // Code or Major Information
         h6 {
+            
             font-size: 28px;
             font-family: monospace;
             display: block;
@@ -81,6 +94,10 @@ body {
             margin-bottom: 1em;
             
             color: $dark-green;
+            
+            // Anchor offset
+            margin-top: 2em - $anchor_offset;
+            padding-top: $anchor_offset;
         }
         
         // Details

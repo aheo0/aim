@@ -23,6 +23,7 @@
     
     <div id="sidebar">
         <a class="sidebar-header" href="#year-2019">Year of 2019</a>
+        <a class="sidebar-links" href="#2019-7">> FIX WEB 2/19 Anchored text FIXED!</a>
         <a class="sidebar-links" href="#2019-6">> FIX WEB 2/19 Sidebar can scroll now</a>
         <a class="sidebar-links" href="#2019-5">> FIX WEB 2/19 Projects page, current tab</a>
         <a class="sidebar-links" href="#2019-4">> CRE WEB 2/19 The projects page has been ...</a>
@@ -36,7 +37,12 @@
             <div id="title">AIM Project | Logs &amp; Changes</div>
             <div id="content">
                 <!-- Run Program -->
-                <h5 id="year-2019">Year of 2019</h5>
+                <div id="year-2019" class="anchor-offset"></div>
+                <h5>Year of 2019</h5>
+                
+                <h6 id="2019-7">FIX | WEBSITE | Anchored text FIXED! </h6>
+                <p>Feb. 19 | 21:58</p>
+                <p>The anchored text on the sidebars allow users to jump directly to the content they wish to see. However, the header that is fixed to the top will block the content, forcing users to scroll a bit up. This was fixed by decreasing margin space and then re-adding them back as top padding. (Yes, top margin space can be negative.) Since the h5 elements had a background color, this didn't work. Therefore, a separate div element was created, along with a separate class dedicated towards giving the h5 elements ample space for anchored text to function.</p>
                 
                 <h6 id="2019-6">FIX | WEBSITE | Sidebar can scroll now </h6>
                 <p>Feb. 19 | 21:30</p>
